@@ -1,0 +1,4 @@
+/* Flip image Utility Classs */
+.flip {
+  transform: scaleX(-1);
+}
