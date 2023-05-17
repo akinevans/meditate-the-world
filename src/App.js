@@ -1,6 +1,7 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         link3='Pricing'
       ></Navigation>
       <Hero />
+      <Footer />
     </div>
   );
 }
