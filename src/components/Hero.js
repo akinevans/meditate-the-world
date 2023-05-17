@@ -34,8 +34,12 @@ export default function Hero(props) {
         <div className='hero-text-form-wrapper'>
           <h1>Meditate The World</h1>
           <p className='hero-text'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            quibusdam, um vitae veritatis aliquam molestiae wattu.
+            Experience tranquility and inner peace at our meditation studio,
+            where expert instructors guide you through a transformative journey
+            of self-discovery. Whether you're a beginner or an experienced
+            practitioner, our serene environment and carefully curated sessions
+            provide the ideal space to unwind, recharge, and cultivate
+            mindfulness.
           </p>
           <form>
             <label>

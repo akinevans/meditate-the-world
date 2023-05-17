@@ -48,14 +48,15 @@
 .alert-text {
   font-size: 13px;
   font-weight: 600;
-  line-height: 19px;
+  line-height: 22px;
   font-family: var(--body-font);
   color: var(--text-secondary);
 }
 
 .hero-text {
-  width: 65%;
+  width: 78%;
   margin: 0 0 40px 0;
+
   /* outline: 2px solid green; */
 }
 
