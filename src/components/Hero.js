@@ -102,7 +102,7 @@ export default function Hero(props) {
         <motion.div
           className='small-green'
           initial={{ y: "0px" }}
-          animate={{ y: [0, -25, 0] }}
+          animate={{ y: [0, -30, 0] }}
           transition={{
             ease: "linear",
             duration: 3,
@@ -141,7 +141,7 @@ export default function Hero(props) {
         <motion.div
           className='small-brown-2'
           initial={{ y: "0px" }}
-          animate={{ y: [0, -24, 0, 24, 0] }}
+          animate={{ y: [0, -35, 0, 35, 0] }}
           transition={{
             ease: "linear",
             duration: 5,

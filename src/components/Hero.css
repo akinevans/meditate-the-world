@@ -114,6 +114,9 @@
 /* Animation classes */
 
 /* Adjust z-index for images that will hover over main yoga image */
+
+/* Height property distorts the image, use width only */
+
 .green-planet,
 .small-brown,
 .small-brown-2,
@@ -129,13 +132,16 @@
   left: -6%;
 }
 
+.small-brown img {
+  width: 33px;
+}
+
 .small-brown {
   bottom: 55%;
   left: 37%;
 }
 .small-brown-2 img {
   width: 22px;
-  height: 18px;
 }
 
 .small-brown-2 {
@@ -146,18 +152,16 @@
 
 /* shrink small green blob */
 .small-green img {
-  width: 22px;
-  height: 22px;
+  width: 20px;
 }
 
 .small-green {
-  bottom: 54%;
+  bottom: 53%;
   left: 41%;
 }
 
 .small-green-2 img {
   width: 32px;
-  height: 32px;
 }
 
 .small-green-2 {
@@ -167,12 +171,12 @@
 }
 
 .med-brown img {
-  width: 70px;
-  height: 70px;
-  /* transform: rotate(180deg); */
+  width: 45px;
+  height: 45px;
+  transform: rotate(70deg);
 }
 
 .med-brown {
   bottom: 9%;
-  right: -4%;
+  right: -2%;
 }
