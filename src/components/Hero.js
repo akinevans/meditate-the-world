@@ -2,6 +2,7 @@ import React from "react";
 import yoga1 from "../images/yoga1.jpg";
 import yoga2 from "../images/yoga2.jpg";
 import yoga3 from "../images/yoga3.jpg";
+import alert from "../icons/exclamation.png";
 import "./Hero.css";
 import Button from "./Button";
 
@@ -26,11 +27,9 @@ export default function Hero(props) {
       <div className='hero-inner-wrapper'>
         <div className='hero-text-form-wrapper'>
           <h1>Meditate The World</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-            quibusdam, vitae veritatis adipisci ea aliquam nam molestiae
-            asperiores beatae accusantium fugit fuga vel error animi expedita ut
-            aliquid! Fugit, beatae.
+          <p className='hero-text'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            quibusdam, um vitae veritatis aliquam molestiae wattu.
           </p>
           <form>
             <label>
@@ -38,16 +37,21 @@ export default function Hero(props) {
                 className='input-form'
                 type='text'
                 name='name'
-                placeholder='Enter your email'
+                placeholder='Type your email.'
               />
             </label>
             <Button className='btn btn-blue' title='Book a meeting' />
           </form>
+          <div className='alert-wrapper'>
+            <img src={alert} alt='' className='alert' />
+            <p className='alert-text'>
+              We'll respond within 24 hours respectively
+            </p>
+          </div>
         </div>
         <div className='hero-image-wrapper'>
           {/* Maybe only use width on images as to not distort it */}
           <img
-            style={{ width: "600px" }}
             src={generateImage()}
             alt='floating yoga illustration'
             className={flipImage() ? "flip" : null}
