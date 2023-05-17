@@ -10,20 +10,21 @@
   font-weight: 600;
   box-shadow: none;
   outline: none;
+  cursor: pointer;
 }
 
 .btn-white {
   background-color: var(--bg-primary);
   color: var(--text-tertiary);
   border: 2px solid var(--bg-border);
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-white:hover {
   background-color: var(--text-tertiary);
   color: var(--bg-primary);
-  border: 2px solid var(--bg-border);
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  border: 2px solid var(--bg-primary);
+  transition: background 0.2s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-white:active {
@@ -35,14 +36,14 @@
   background-color: var(--bg-secondary);
   color: var(--bg-primary);
   border: 2px solid var(--bg-secondary);
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-blue:hover {
   background-color: var(--bg-primary);
   color: var(--bg-secondary);
   /* border: 2px solid var(--bg-secondary); */
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-blue:active {
