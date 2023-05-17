@@ -1,3 +1,12 @@
+### UI Design By [Giorgi](https://dribbble.com/giorgimatsukatovi)
+
+![Meditate The World](./src/images/Webpage.png)
+
+## TODO:
+
+- [ ] Build responsive tablet view
+- [ ] Build responsive mobile view
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
