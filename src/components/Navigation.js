@@ -1,5 +1,7 @@
 import React from "react";
+import "./Navigation.css";
 import globe from "../icons/globe.png";
+import Button from "./Button";
 
 export default function Navigation(props) {
   return (
@@ -12,9 +14,12 @@ export default function Navigation(props) {
             <p className='bottom-text'>Tate</p>
           </div>
         </div>
-        <a href=''>{props.link1}</a>
-        <a href=''>{props.link2}</a>
-        <a href=''>{props.link3}</a>
+        <div className='nav-links-button-wrapper'>
+          <a href=''>{props.link1}</a>
+          <a href=''>{props.link2}</a>
+          <a href=''>{props.link3}</a>
+          <Button className='btn btn-white' title='Book a meeting' />
+        </div>
       </div>
     </nav>
   );
