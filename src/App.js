@@ -1,6 +1,6 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
-import Button from "./components/Button";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         link2='Success stories'
         link3='Pricing'
       ></Navigation>
+      <Hero />
     </div>
   );
 }
