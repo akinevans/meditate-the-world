@@ -40,8 +40,10 @@
 }
 
 .btn-blue:hover {
-  background-color: var(--bg-primary);
+  background-color: #f3f3f6;
   color: var(--bg-secondary);
+  border: 2px solid #f3f3f6;
+
   /* border: 2px solid var(--bg-secondary); */
   transition: background 0.2s ease-in-out, color 0.3s ease-in-out;
 }
