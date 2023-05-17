@@ -3,11 +3,16 @@ import yoga1 from "../images/yoga1.jpg";
 import yoga2 from "../images/yoga2.jpg";
 import yoga3 from "../images/yoga3.jpg";
 import alert from "../icons/exclamation.png";
+import small_green from "../images/small-green.png";
+import small_brown from "../images/small-brown.png";
+import med_brown from "../images/med-brown.png";
+import green_planet from "../images/green-planet.png";
+import large_brown from "../images/large-brown.png";
 import "./Hero.css";
 import Button from "./Button";
+import { motion } from "framer-motion";
 
 export default function Hero(props) {
-  // choose if image should be flipped horizontally
   const images = [yoga1, yoga2, yoga3];
 
   // display random image
@@ -16,6 +21,7 @@ export default function Hero(props) {
     return images[randomNum];
   }
 
+  // choose if image should be flipped horizontally
   function flipImage() {
     const choices = [true, false];
     const randomNum = Math.floor(Math.random() * 2);
@@ -49,14 +55,103 @@ export default function Hero(props) {
             </p>
           </div>
         </div>
-        <div className='hero-image-wrapper'>
+        <motion.div
+          className='hero-image-wrapper'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -20, 0, 20, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 4.5,
+            // yoyo: Infinity,
+            repeat: Infinity,
+          }}
+        >
           {/* Maybe only use width on images as to not distort it */}
           <img
             src={generateImage()}
             alt='floating yoga illustration'
             className={flipImage() ? "flip" : null}
           />
-        </div>
+        </motion.div>
+        {/* Images for animation */}
+        <motion.div
+          className='green-planet'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -35, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 3,
+            repeat: Infinity,
+          }}
+        >
+          <img src={green_planet} alt='green planet' />
+        </motion.div>
+
+        <motion.div
+          className='small-brown'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -25, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 3.2,
+            repeat: Infinity,
+          }}
+        >
+          <img src={small_brown} alt='brown blob' />
+        </motion.div>
+        <motion.div
+          className='small-green'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -25, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 3,
+            repeat: Infinity,
+          }}
+        >
+          <img src={small_green} alt='green blob' />
+        </motion.div>
+
+        <motion.div
+          className='med-brown'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -18, 0, 18, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 5,
+            repeat: Infinity,
+          }}
+        >
+          <img src={med_brown} alt='brown blob' />
+        </motion.div>
+
+        <motion.div
+          className='small-green-2'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -25, 0, 25, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 4,
+            repeat: Infinity,
+          }}
+        >
+          <img src={small_green} alt='green blob' />
+        </motion.div>
+
+        <motion.div
+          className='small-brown-2'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -24, 0, 24, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 5,
+            repeat: Infinity,
+          }}
+        >
+          <img src={small_brown} alt='brown blob' />
+        </motion.div>
+
+        {/* End  hero inner wrapper*/}
       </div>
     </section>
   );

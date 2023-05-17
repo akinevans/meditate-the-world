@@ -21,6 +21,7 @@
 }
 
 .hero-inner-wrapper {
+  position: relative;
   width: var(--desktop-width);
   height: 100%;
   /* outline: 2px solid blue; */
@@ -108,4 +109,70 @@
 
 .hero-image-wrapper img {
   width: 470px;
+}
+
+/* Animation classes */
+
+/* Adjust z-index for images that will hover over main yoga image */
+.green-planet,
+.small-brown,
+.small-brown-2,
+.small-green,
+.small-green-2,
+.med-brown {
+  position: absolute;
+  z-index: -1;
+}
+
+.green-planet {
+  bottom: 75%;
+  left: -6%;
+}
+
+.small-brown {
+  bottom: 55%;
+  left: 37%;
+}
+.small-brown-2 img {
+  width: 22px;
+  height: 18px;
+}
+
+.small-brown-2 {
+  z-index: 1;
+  bottom: 85%;
+  left: 58%;
+}
+
+/* shrink small green blob */
+.small-green img {
+  width: 22px;
+  height: 22px;
+}
+
+.small-green {
+  bottom: 54%;
+  left: 41%;
+}
+
+.small-green-2 img {
+  width: 32px;
+  height: 32px;
+}
+
+.small-green-2 {
+  z-index: 1;
+  bottom: 55%;
+  right: 0.4%;
+}
+
+.med-brown img {
+  width: 70px;
+  height: 70px;
+  /* transform: rotate(180deg); */
+}
+
+.med-brown {
+  bottom: 9%;
+  right: -4%;
 }
