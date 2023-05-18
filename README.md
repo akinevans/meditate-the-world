@@ -1,11 +1,13 @@
-### UI Design By [Giorgi](https://dribbble.com/giorgimatsukatovi)
+## Landing page for MediTate built using React
+
+UI Design By [Giorgi](https://dribbble.com/giorgimatsukatovi)
 
 ![Meditate The World](./src/images/Webpage.png)
 
 ## TODO:
 
-- [ ] Build responsive tablet view
-- [ ] Build responsive mobile view
+- [x] Build responsive tablet view
+- [x] Build responsive mobile view
 
 # Getting Started with Create React App
 
