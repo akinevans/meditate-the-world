@@ -104,15 +104,15 @@
 
   .nav-inner-wrapper {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     /* outline: 2px solid blue; */
   }
 
-  .nav-inner-wrapper {
-    width: 100%;
-    justify-content: space-around;
-    /* outline: 2px solid blue; */
+  .nav-logo-wrapper {
+    padding: 0;
+    /* outline: 2px solid red; */
   }
 
   .nav-logo-wrapper img {
@@ -126,7 +126,7 @@
   }
 
   .nav-links-button-wrapper {
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 99%;
     padding: 0;
     /* outline: 2px solid red; */
