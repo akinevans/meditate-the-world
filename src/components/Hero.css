@@ -110,15 +110,19 @@
   font-size: 11px;
 }
 
+.hero-image-wrapper {
+  position: relative;
+}
+
 .hero-image-wrapper img {
   width: 470px;
 }
 
-/* Animation classes */
+/*^ Animation classes */
+
+/*^ Height property distorts the image, use width only */
 
 /* Adjust z-index for images that will hover over main yoga image */
-
-/* Height property distorts the image, use width only */
 
 .green-planet,
 .small-brown,
@@ -128,16 +132,16 @@
 .small-green-2,
 .med-brown {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
 }
 
 .green-planet {
   bottom: 75%;
-  left: -6%;
+  left: -5%;
 }
 
 .small-brown img {
-  width: 33px;
+  width: 26px;
 }
 
 .small-brown {
@@ -146,23 +150,23 @@
 }
 
 .small-brown-2 img {
-  width: 22px;
-}
-
-.small-brown-3 {
-  z-index: 1;
-  bottom: 20%;
-  left: 52%;
-}
-
-.small-brown-3 img {
-  width: 16px;
+  width: 13px;
 }
 
 .small-brown-2 {
-  z-index: 1;
-  bottom: 85%;
-  left: 58%;
+  /* z-index: 1; */
+  bottom: 80%;
+  left: 64%;
+}
+
+.small-brown-3 img {
+  width: 14px;
+}
+
+.small-brown-3 {
+  /* z-index: 1; */
+  bottom: 15%;
+  left: 2%;
 }
 
 /* shrink small green blob */
@@ -176,13 +180,13 @@
 }
 
 .small-green-2 img {
-  width: 32px;
+  width: 24px;
 }
 
 .small-green-2 {
-  z-index: 1;
-  bottom: 55%;
-  right: 0.4%;
+  /* z-index: 1; */
+  bottom: 65%;
+  right: 2%;
 }
 
 .med-brown img {
@@ -205,13 +209,6 @@
     width: 90%;
     /* outline: 2px solid blue; */
   }
-
-  /* .hero-text-form-wrapper,
-  .hero-image-wrapper {
-    width: 50%;
-    height: 100%;
-    outline: 2px solid green;
-  } */
 
   .hero-text-form-wrapper h1 {
     width: 75%;
@@ -254,7 +251,72 @@
   }
 
   .hero-image-wrapper img {
-    width: 430px;
+    width: 100%;
+  }
+
+  .green-planet {
+    bottom: 75%;
+    left: -5%;
+  }
+
+  .small-brown img {
+    width: 22px;
+  }
+
+  .small-brown {
+    bottom: 55%;
+    left: 37%;
+  }
+
+  .small-brown-2 img {
+    width: 13px;
+  }
+
+  .small-brown-2 {
+    /* z-index: 1; */
+    bottom: 80%;
+    left: 64%;
+  }
+
+  .small-brown-3 img {
+    width: 14px;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 15%;
+    left: 2%;
+  }
+
+  /* shrink small green blob */
+  .small-green img {
+    width: 16px;
+  }
+
+  .small-green {
+    bottom: 53%;
+    left: 41%;
+  }
+
+  .small-green-2 img {
+    width: 24px;
+  }
+
+  .small-green-2 {
+    /* z-index: 1; */
+    bottom: 65%;
+    right: 2%;
+  }
+
+  .med-brown img {
+    width: 45px;
+    height: 45px;
+    transform: rotate(70deg);
+  }
+
+  .med-brown {
+    bottom: 9%;
+    right: -2%;
   }
 } /* End Tablet View 1000px */
 
@@ -304,10 +366,266 @@
   .alert-wrapper {
     justify-content: center;
     margin-top: 10px;
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
   }
 
   .hero-image-wrapper img {
     width: 430px;
   }
+
+  .green-planet {
+    top: 6%;
+    left: 24%;
+  }
+
+  .small-brown img {
+    width: 22px;
+  }
+
+  .small-brown {
+    bottom: 58%;
+    left: 78%;
+  }
+
+  .small-brown-2 img {
+    width: 13px;
+  }
+
+  .small-brown-2 {
+    /* z-index: 1; */
+    bottom: 80%;
+    left: 64%;
+  }
+
+  .small-brown-3 img {
+    width: 14px;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 15%;
+    left: 19%;
+  }
+
+  /* shrink small green blob */
+  .small-green img {
+    width: 16px;
+  }
+
+  .small-green {
+    bottom: 56%;
+    left: 82%;
+  }
+
+  .small-green-2 img {
+    width: 24px;
+  }
+
+  .small-green-2 {
+    /* z-index: 1; */
+    bottom: 65%;
+    right: 21%;
+  }
+
+  .med-brown img {
+    width: 45px;
+    height: 45px;
+    transform: rotate(70deg);
+  }
+
+  .med-brown {
+    bottom: 9%;
+    right: 12%;
+  }
 } /* End Tablet View 875px */
+
+/** Tablet View 800px */
+/** Tablet View 800px */
+/** Tablet View 800px */
+
+@media (max-width: 800px) {
+  .green-planet {
+    top: 6%;
+    left: 23%;
+  }
+
+  .small-brown img {
+    width: 22px;
+  }
+
+  .small-brown {
+    bottom: 58%;
+    left: 78%;
+  }
+
+  .small-brown-2 img {
+    width: 13px;
+  }
+
+  .small-brown-2 {
+    /* z-index: 1; */
+    bottom: 80%;
+    left: 64%;
+  }
+
+  .small-brown-3 img {
+    width: 14px;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 15%;
+    left: 19%;
+  }
+
+  /* shrink small green blob */
+  .small-green img {
+    width: 16px;
+  }
+
+  .small-green {
+    bottom: 56%;
+    left: 82%;
+  }
+
+  .small-green-2 img {
+    width: 24px;
+  }
+
+  .small-green-2 {
+    /* z-index: 1; */
+    bottom: 65%;
+    right: 21%;
+  }
+
+  .med-brown img {
+    width: 45px;
+    height: 45px;
+    transform: rotate(70deg);
+  }
+
+  .med-brown {
+    bottom: 9%;
+    right: 12%;
+  }
+} /* End Mobile View 800px */
+
+/** Mobile View 750px */
+/** Mobile View 750px */
+/** Mobile View 750px */
+
+@media (max-width: 750px) {
+  .green-planet {
+    top: 6%;
+    left: 17%;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 15%;
+    left: 12%;
+  }
+
+  .med-brown {
+    bottom: 9%;
+    right: 10%;
+  }
+} /* End Mobile View 750px */
+
+/** Mobile View 600px */
+/** Mobile View 600px */
+/** Mobile View 600px */
+
+@media (max-width: 600px) {
+  .green-planet {
+    top: 6%;
+    left: 10%;
+  }
+
+  .small-brown img {
+    width: 22px;
+  }
+
+  .small-brown {
+    bottom: 58%;
+    left: 78%;
+  }
+
+  .small-brown-2 img {
+    width: 13px;
+  }
+
+  .small-brown-2 {
+    /* z-index: 1; */
+    bottom: 80%;
+    left: 64%;
+  }
+
+  .small-brown-3 img {
+    width: 14px;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 15%;
+    left: 2%;
+  }
+
+  /* shrink small green blob */
+  .small-green img {
+    width: 16px;
+  }
+
+  .small-green {
+    bottom: 56%;
+    left: 82%;
+  }
+
+  .small-green-2 img {
+    width: 24px;
+  }
+
+  .small-green-2 {
+    /* z-index: 1; */
+    bottom: 65%;
+    right: 21%;
+  }
+
+  .med-brown img {
+    width: 45px;
+    height: 45px;
+    transform: rotate(70deg);
+  }
+
+  .med-brown {
+    bottom: 9%;
+    right: 0%;
+  }
+} /* End Mobile View 600px */
+
+/** Mobile View 500px */
+/** Mobile View 500px */
+/** Mobile View 500px */
+
+@media (max-width: 500px) {
+  .green-planet {
+    top: 6%;
+    left: 5%;
+  }
+
+  .small-green {
+    bottom: 58%;
+    left: 84%;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 15%;
+    left: -2%;
+  }
+
+  .med-brown {
+    bottom: 5%;
+    right: -8%;
+  }
+} /* End Mobile View 500px */

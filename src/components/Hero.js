@@ -76,8 +76,61 @@ export default function Hero(props) {
             alt='floating yoga illustration'
             className={flipImage() ? "flip" : null}
           />
+
+          <motion.div
+            className='small-brown-2'
+            initial={{ y: "0px" }}
+            animate={{ y: [0, -35, 0, 35, 0] }}
+            transition={{
+              ease: "linear",
+              duration: 5,
+              repeat: Infinity,
+            }}
+          >
+            <img src={small_brown} alt='brown blob' />
+          </motion.div>
+
+          <motion.div
+            className='small-brown-3'
+            initial={{ y: "0px" }}
+            animate={{ y: [0, -35, 0, 35, 0] }}
+            transition={{
+              ease: "linear",
+              duration: 6,
+              repeat: Infinity,
+            }}
+          >
+            <img src={small_brown} alt='brown blob' />
+          </motion.div>
+
+          <motion.div
+            className='small-green-2'
+            initial={{ y: "0px" }}
+            animate={{ y: [0, -40, 0, 40, 0] }}
+            transition={{
+              ease: "linear",
+              duration: 6,
+              repeat: Infinity,
+            }}
+          >
+            <img src={small_green} alt='green blob' />
+          </motion.div>
+
+          <motion.div
+            className='med-brown'
+            initial={{ y: "0px" }}
+            animate={{ y: [0, -18, 0, 18, 0] }}
+            transition={{
+              ease: "linear",
+              duration: 5,
+              repeat: Infinity,
+            }}
+          >
+            <img src={med_brown} alt='brown blob' />
+          </motion.div>
+          {/* End Hero-image wrapper */}
         </motion.div>
-        {/* Images for animation */}
+
         <motion.div
           className='green-planet'
           initial={{ y: "0px" }}
@@ -116,59 +169,7 @@ export default function Hero(props) {
           <img src={small_green} alt='green blob' />
         </motion.div>
 
-        <motion.div
-          className='med-brown'
-          initial={{ y: "0px" }}
-          animate={{ y: [0, -18, 0, 18, 0] }}
-          transition={{
-            ease: "linear",
-            duration: 5,
-            repeat: Infinity,
-          }}
-        >
-          <img src={med_brown} alt='brown blob' />
-        </motion.div>
-
-        <motion.div
-          className='small-green-2'
-          initial={{ y: "0px" }}
-          animate={{ y: [0, -40, 0, 40, 0] }}
-          transition={{
-            ease: "linear",
-            duration: 6,
-            repeat: Infinity,
-          }}
-        >
-          <img src={small_green} alt='green blob' />
-        </motion.div>
-
-        <motion.div
-          className='small-brown-2'
-          initial={{ y: "0px" }}
-          animate={{ y: [0, -35, 0, 35, 0] }}
-          transition={{
-            ease: "linear",
-            duration: 5,
-            repeat: Infinity,
-          }}
-        >
-          <img src={small_brown} alt='brown blob' />
-        </motion.div>
-
-        <motion.div
-          className='small-brown-3'
-          initial={{ y: "0px" }}
-          animate={{ y: [0, -35, 0, 35, 0] }}
-          transition={{
-            ease: "linear",
-            duration: 6,
-            repeat: Infinity,
-          }}
-        >
-          <img src={small_brown} alt='brown blob' />
-        </motion.div>
-
-        {/* End  hero inner wrapper*/}
+        {/* End hero inner wrapper*/}
       </div>
     </section>
   );
