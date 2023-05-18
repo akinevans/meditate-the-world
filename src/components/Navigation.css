@@ -90,6 +90,8 @@
 } /* End Tablet View 1225px */
 
 /** Tablet View 875px */
+/** Tablet View 875px */
+/** Tablet View 875px */
 
 @media (max-width: 875px) {
   .nav-outer-wrapper {
@@ -137,3 +139,15 @@
     font-weight: 600;
   }
 } /* End Tablet View 875px */
+
+/** Mobile View 500px */
+/** Mobile View 500px */
+/** Mobile View 500px */
+
+@media (max-width: 875px) {
+  .nav-links-button-wrapper a {
+    font-size: 11.9px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+  }
+} /* End Mobile View 500px */
