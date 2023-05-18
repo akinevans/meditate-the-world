@@ -1,5 +1,7 @@
 ## Landing page for MediTate built using React, JavaScript and vanilla CSS.
 
+### [Check out the live demo here](https://akinevans.github.io/meditate-the-world/) =)
+
 UI Design By [Giorgi](https://dribbble.com/giorgimatsukatovi)
 
 ![Meditate The World](./src/images/Webpage.png)
