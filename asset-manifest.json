@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meditate-the-world/static/css/main.49a399d2.css",
+    "main.css": "/meditate-the-world/static/css/main.7696c525.css",
     "main.js": "/meditate-the-world/static/js/main.52b66e7a.js",
     "static/js/787.b4a6058a.chunk.js": "/meditate-the-world/static/js/787.b4a6058a.chunk.js",
     "static/media/yoga1.jpg": "/meditate-the-world/static/media/yoga1.44c9bd6a3d2fe1161a59.jpg",
@@ -15,12 +15,12 @@
     "static/media/med-brown.svg": "/meditate-the-world/static/media/med-brown.df15038190e62bab51445dc8c27f12b9.svg",
     "static/media/small-brown.svg": "/meditate-the-world/static/media/small-brown.33d7871eff0cf45e9fc9f60f968e67ca.svg",
     "static/media/small-green.svg": "/meditate-the-world/static/media/small-green.0edc1708049033386efbdacebc759595.svg",
-    "main.49a399d2.css.map": "/meditate-the-world/static/css/main.49a399d2.css.map",
+    "main.7696c525.css.map": "/meditate-the-world/static/css/main.7696c525.css.map",
     "main.52b66e7a.js.map": "/meditate-the-world/static/js/main.52b66e7a.js.map",
     "787.b4a6058a.chunk.js.map": "/meditate-the-world/static/js/787.b4a6058a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49a399d2.css",
+    "static/css/main.7696c525.css",
     "static/js/main.52b66e7a.js"
   ]
 }
