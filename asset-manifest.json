@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/meditate-the-world/static/css/main.fa46ea62.css",
+    "main.js": "/meditate-the-world/static/js/main.52b66e7a.js",
+    "static/js/787.b4a6058a.chunk.js": "/meditate-the-world/static/js/787.b4a6058a.chunk.js",
+    "static/media/yoga1.jpg": "/meditate-the-world/static/media/yoga1.44c9bd6a3d2fe1161a59.jpg",
+    "static/media/yoga3.jpg": "/meditate-the-world/static/media/yoga3.52041f46e5a58b6380bf.jpg",
+    "static/media/yoga2.jpg": "/meditate-the-world/static/media/yoga2.784c4455fe06f45a25bb.jpg",
+    "static/media/green-planet.svg": "/meditate-the-world/static/media/green-planet.455d2f9b5662f3a01035f66c7a484e6c.svg",
+    "static/media/dribbble.svg": "/meditate-the-world/static/media/dribbble.2559dc6c6050a0ef2f41fe6bf2a066d3.svg",
+    "index.html": "/meditate-the-world/index.html",
+    "static/media/twitter.svg": "/meditate-the-world/static/media/twitter.60b48e5a6b198f44f5a4bccf993df95f.svg",
+    "static/media/instagram.svg": "/meditate-the-world/static/media/instagram.dba11f297e622019fb4112a865a57e87.svg",
+    "static/media/facebook.svg": "/meditate-the-world/static/media/facebook.93f6911a50082b677da52c5ce346f0a1.svg",
+    "static/media/med-brown.svg": "/meditate-the-world/static/media/med-brown.df15038190e62bab51445dc8c27f12b9.svg",
+    "static/media/small-brown.svg": "/meditate-the-world/static/media/small-brown.33d7871eff0cf45e9fc9f60f968e67ca.svg",
+    "static/media/small-green.svg": "/meditate-the-world/static/media/small-green.0edc1708049033386efbdacebc759595.svg",
+    "main.fa46ea62.css.map": "/meditate-the-world/static/css/main.fa46ea62.css.map",
+    "main.52b66e7a.js.map": "/meditate-the-world/static/js/main.52b66e7a.js.map",
+    "787.b4a6058a.chunk.js.map": "/meditate-the-world/static/js/787.b4a6058a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa46ea62.css",
+    "static/js/main.52b66e7a.js"
+  ]
+}
