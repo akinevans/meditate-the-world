@@ -3,11 +3,11 @@ import yoga1 from "../images/yoga1.jpg";
 import yoga2 from "../images/yoga2.jpg";
 import yoga3 from "../images/yoga3.jpg";
 import alert from "../icons/exclamation.png";
-import small_green from "../images/small-green.png";
-import small_brown from "../images/small-brown.png";
-import med_brown from "../images/med-brown.png";
-import green_planet from "../images/green-planet.png";
-import large_brown from "../images/large-brown.png";
+import small_green from "../images/small-green.svg";
+import small_brown from "../images/small-brown.svg";
+import med_brown from "../images/med-brown.svg";
+import green_planet from "../images/green-planet.svg";
+
 import "./Hero.css";
 import Button from "./Button";
 import { motion } from "framer-motion";
