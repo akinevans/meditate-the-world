@@ -532,11 +532,11 @@
   }
 } /* End Mobile View 750px */
 
-/** Mobile View 600px */
-/** Mobile View 600px */
-/** Mobile View 600px */
+/** Mobile View 610px */
+/** Mobile View 610px */
+/** Mobile View 610px */
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
   .green-planet {
     top: 6%;
     left: 10%;
@@ -601,7 +601,7 @@
     bottom: 9%;
     right: 0%;
   }
-} /* End Mobile View 600px */
+} /* End Mobile View 610px */
 
 /** Mobile View 500px */
 /** Mobile View 500px */
@@ -653,3 +653,52 @@
     right: -8%;
   }
 } /* End Mobile View 500px */
+
+/** Mobile View 450px */
+/** Mobile View 450px */
+/** Mobile View 450px */
+
+@media (max-width: 450px) {
+  .green-planet img {
+    width: 50px;
+  }
+
+  .green-planet {
+    top: 6%;
+    left: 2%;
+  }
+} /* End Mobile View 450px */
+
+/** Mobile View 420px */
+/** Mobile View 420px */
+/** Mobile View 420px */
+
+@media (max-width: 420px) {
+  .green-planet img {
+    display: none;
+  }
+
+  .small-brown img {
+    width: 15px;
+  }
+
+  .small-brown {
+    right: 10%;
+    bottom: 57%;
+  }
+
+  .small-brown-3 img {
+    width: 12px;
+  }
+
+  .small-brown-3 {
+    /* z-index: 1; */
+    bottom: 30%;
+    left: 6%;
+  }
+
+  .med-brown {
+    bottom: 19%;
+    right: -2%;
+  }
+} /* End Mobile View 420px */
