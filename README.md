@@ -1,4 +1,4 @@
-## Landing page for MediTate built using React
+## Landing page for MediTate built using React, JavaScript and vanilla CSS.
 
 UI Design By [Giorgi](https://dribbble.com/giorgimatsukatovi)
 
