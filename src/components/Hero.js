@@ -132,10 +132,10 @@ export default function Hero(props) {
         <motion.div
           className='small-green-2'
           initial={{ y: "0px" }}
-          animate={{ y: [0, -25, 0, 25, 0] }}
+          animate={{ y: [0, -40, 0, 40, 0] }}
           transition={{
             ease: "linear",
-            duration: 4,
+            duration: 6,
             repeat: Infinity,
           }}
         >
@@ -149,6 +149,19 @@ export default function Hero(props) {
           transition={{
             ease: "linear",
             duration: 5,
+            repeat: Infinity,
+          }}
+        >
+          <img src={small_brown} alt='brown blob' />
+        </motion.div>
+
+        <motion.div
+          className='small-brown-3'
+          initial={{ y: "0px" }}
+          animate={{ y: [0, -35, 0, 35, 0] }}
+          transition={{
+            ease: "linear",
+            duration: 6,
             repeat: Infinity,
           }}
         >

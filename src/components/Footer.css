@@ -52,6 +52,7 @@
 }
 
 .credit {
+  margin-right: 10px;
   text-decoration: none;
   font-family: var(--body-font);
   font-size: 11.5px;

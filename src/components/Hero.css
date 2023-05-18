@@ -121,6 +121,7 @@
 .green-planet,
 .small-brown,
 .small-brown-2,
+.small-brown-3,
 .small-green,
 .small-green-2,
 .med-brown {
@@ -141,8 +142,19 @@
   bottom: 55%;
   left: 37%;
 }
+
 .small-brown-2 img {
   width: 22px;
+}
+
+.small-brown-3 {
+  z-index: 1;
+  bottom: 20%;
+  left: 52%;
+}
+
+.small-brown-3 img {
+  width: 16px;
 }
 
 .small-brown-2 {
